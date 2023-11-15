@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'Yekan';
+    src: url('../font/Yekan.woff') format('woff');
+}  
 body{
-    font-family: sans-serif;
+    font-family: "Yekan" , sans-serif;
+    
 }
 ::placeholder{
-    font-family: sans-serif;
+    font-family: "Yekan" , sans-serif;
 }
 .container{
     width: 70%;

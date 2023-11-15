@@ -858,3 +858,297 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
 }
 
 
+.mfooter{
+    margin-top: 20px;
+    border-top: 0.5px solid silver;
+    width: 100%;
+    height: 500px;
+}
+
+.mfooter .header{
+    width: 85%;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.mfooter .header .returnToTop{
+    width: 132px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.mfooter .about{
+    width: 85%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    margin-top: 20px;
+    gap: 16px;
+}
+
+.mfooter .options{
+    width: 85%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    margin-top: 20px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.mfooter .options div{
+    width: 321px;
+    height: 103px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.mfooter .options div img{
+    width: 56px;
+    height: 56px;
+}
+
+.mfooter .services{
+    width: 85%;
+    height: 270px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    margin-top: 20px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.mfooter .services div{
+    width: 441px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.mfooter .services div p{
+    color: silver;
+    margin-top: 16px;
+}
+.mfooter .services div h2{
+    font-size: 18px;
+}
+.mfooter .services div p{
+    font-size: 16px;
+}
+.mfooter .services .socials{
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 40px;
+    margin-top: 20px;
+}
+.mfooter .services .email_box{
+    width: 322px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    margin-top: 20px;
+    gap: 10px;
+}
+.mfooter .services .email_box .btn_submit{
+    width: 62px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 227, 228);
+    border-radius: 8px;
+  
+
+}
+
+.mfooter .services .email_box .email_input{
+    width: 260px;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(227, 227, 228);
+    padding-right: 15px;
+}
+.mfooter .download{
+    width: 85%;
+    height: 76px;
+    background-color: #3c4b6d;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.mfooter .download .log{
+    width: fit-content;
+    height: 44px;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    top: 20%;
+
+}
+.mfooter .download .log img{
+    width: 44px;
+    height: 44px;
+    
+}   
+.mfooter .download .log p{
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.mfooter .download .appstores{
+    width: fit-content;
+    height: 44px;
+    flex-flow: row nowrap;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+
+}
+.mfooter .download .appstores img:last-child{
+    margin-right: 20px;   
+}
+.mfooter .download .appstores img{
+    border-radius: 8px;
+}
+.mfooter .line{
+    width: 85%;
+    background-color: silver;
+    padding: 0.5px;
+    margin: auto;
+}
+
+.mfooter .about2{
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+}
+.mfooter .about2 .namads{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+}
+.mfooter .about2 .namads div{
+    width: 109px;
+    height: 109px;
+    border:1px solid silver;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.mfooter .about2 .namads div img{ 
+    width: 75px;
+    padding: 15%;
+}
+.mfooter .about2 .namads .enamad2 img{ 
+    padding: 0%;
+}
+.mfooter .about2 .text_about{
+    width: 70%;
+    padding-left: 2%;
+}
+.mfooter .warning{
+    width: 85%;
+    height:10%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.mfooter .companies{
+    background-color: #f2f2f2;
+    width: 100%;
+    height:169px;
+}
+.mfooter .companies .companies_row1{
+    width: 85%;
+    height:80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mfooter .companies .companies_row1 div{
+    width: 209px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid #a1a3a8;
+
+}
+.mfooter .companies .companies_row1 div:first-child{
+    border-right: transparent
+}
+
+.mfooter .companies .companies_row2{
+    width: 85%;
+    height:80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mfooter .companies .companies_row2 div{
+    width: 239px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid #a1a3a8;
+
+}
+.mfooter .companies .companies_row2 div:first-child{
+    border-right: transparent
+}
+
+.chat1{
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    left: 50px;
+    bottom: 10px;
+    background-color: #ef394e;
+    border-radius: 50%;
+    z-index: 1000000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat1 img{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
