@@ -1,0 +1,222 @@
+@import "animations.css";
+@import "reset.css";
+@import url(xxl.css) screen and (min-width: 1400px);
+@import url(xl.css) screen and (min-width: 1200px) and (max-width:1400px);
+@import url(lg.css) screen and (min-width: 992px) and (max-width:1200px);
+@import url(md.css) screen and (min-width: 768px) and (max-width:992px);
+@import url(sm.css) screen and (min-width:576px)  and (max-width:768px);
+@import url(xs.css) screen and (max-width:576px);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ /* .image_top {
+  width: 100%;
+  height: 60px;
+}
+.menu {
+  width: 100%;
+  height: 40px;
+  padding: 0 16px;
+border-bottom: 1px solid black;
+background-color: white;
+}
+.menu .menu__nav {
+  width: 100%;
+  height: 100%;
+}
+.menu .menu__nav .menu__list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.menu .menu__nav .menu__list .menu__item {
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.menu .menu__nav .menu__list .menu__item .menu__link {
+  display: block;
+  height: 100%;
+  line-height: 40px;
+  text-decoration: none;
+  padding: 0 12px;
+  color: black;
+}
+.menu .menu__nav .menu__list .menu__item:first-child .menu__link .menu__link {
+  font-weight: bold;
+}
+.menu .menu__nav .menu__list .menu__item .menu2 {
+  width: 150%;
+  height: calc(80dvh - 40px);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  box-shadow: 0 0px 16px rgba(0,0,0,0,1);
+  background-color: white;
+
+}
+.menu .menu__nav .menu__list .menu__item:hover .menu2{
+  display: block;
+}
+.menu .menu__nav .menu__list .menu__item .menu2 .menu2__nav {
+  width: 100%;
+  height: 100%;
+  direction: ltr;
+}
+.menu .menu__nav .menu__list .menu__item .menu2 .menu2__nav .menu2__list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  direction: rtl;
+}
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item:hover
+  .menu3 {
+  display: block;
+}
+
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item
+  .menu2__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+  padding: 0 12px;
+}
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item
+  .menu3 {
+  width: calc(100vw - 150%);
+  height: calc(80dvh - 40px);
+  position: absolute;
+  top: 0;
+  right: 100%;
+  display: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0,1);
+  background-color: white;
+}
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item:first-child
+  .menu3{
+    display: block;
+  }
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item:hover
+  .menu3{
+    display: block;
+  }
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item
+  .menu3
+  .menu3__nav {
+  width: 100%;
+  height: 100%;
+  direction: ltr;
+}
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item
+  .menu3
+  .menu3__nav
+  .menu3__list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  padding: 24px;
+  direction: rtl;
+}
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item
+  .menu3
+  .menu3__nav
+  .menu3__list
+  .menu3__item {
+  display: inline-block;
+  width: 24%;
+  margin-bottom: 20px;
+}
+.menu
+  .menu__nav
+  .menu__list
+  .menu__item
+  .menu2
+  .menu2__nav
+  .menu2__list
+  .menu2__item
+  .menu3
+  .menu3__nav
+  .menu3__list
+  .menu3__item
+  .menu3__link {
+  text-decoration: none;
+
+} */

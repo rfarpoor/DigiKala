@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digikala</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <input type="radio" name="city" id="openCity">
+    <input type="radio" name="city" id="closeCity">
+    <header>
+      <div class="banner">
+        <img class="image_top" src="https://dkstatics-public.digikala.com/digikala-adservice-banners/b612002352fb894d56772b324db86b202deeb088_1695627498.jpg?x-oss-process=image/quality,q_95/format,webp" alt="">
+      </div>
+         
+      <div class="menu1">
+        <div class="logo">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="115" height="30" viewBox="0 0 115 30">
+            <g fill="none" fill-rule="evenodd">
+                <g fill="#EE384E">
+                    <g>
+                        <g>
+                            <path d="M76.916 19.024h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zm26.883 0h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zM88.117 6.951v15.366c0 .484-.625 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm26.883 0v15.366c0 .484-.624 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm-74.675 3.293h-6.721c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78zm4.48-3.293V23.78c0 3.523-3.117 6.22-6.72 6.22H34.62c-.515 0-1-.236-1.311-.638l-1.972-2.55c-.327-.424-.144-1.202.399-1.202h6.347c1.16 0 2.24-.696 2.24-1.83v-.365h-6.72c-3.604 0-6.72-3.063-6.72-6.586v-4.39c0-3.523 3.116-6.585 6.72-6.585h4.107c.514 0 1.074.405 1.437.731l1.177 1.098V6.95c0-.483.625-1.097 1.12-1.097h2.24c.496 0 1.12.613 1.12 1.097zM4.481 16.83c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39zM16.8 0c.497 0 1.121.613 1.121 1.098v21.22c0 .483-.624 1.097-1.12 1.097h-2.24c-.496 0-1.12-.613-1.12-1.098v-.732l-1.175 1.232c-.318.346-.932.598-1.44.598H6.722C3.117 23.415 0 20.352 0 16.829v-4.356c0-3.523 3.117-6.62 6.72-6.62h6.722V1.099c0-.485.624-1.098 1.12-1.098h2.24zm46.3 14.634L69.336 6.9c.347-.421.04-1.048-.513-1.048h-3.566c-.27 0-.525.119-.696.323l-6.314 7.727V1.098c0-.485-.625-1.098-1.12-1.098h-2.24c-.496 0-1.12.613-1.12 1.098v21.22c0 .483.624 1.097 1.12 1.097h2.24c.495 0 1.12-.614 1.12-1.098v-6.951l6.317 7.744c.17.207.428.328.7.328h3.562c.554 0 .86-.627.514-1.048l-6.24-7.756zM48.166 0c-.496 0-1.12.613-1.12 1.098v2.195c0 .484.624 1.097 1.12 1.097h2.24c.495 0 1.12-.613 1.12-1.097V1.098c0-.485-.625-1.098-1.12-1.098h-2.24zm0 5.854c-.496 0-1.12.613-1.12 1.097v15.366c0 .484.8 1.12 1.295 1.12l2.065-.022c.495 0 1.12-.614 1.12-1.098V6.951c0-.484-.625-1.097-1.12-1.097h-2.24zM21.282 0c-.495 0-1.12.613-1.12 1.098v2.195c0 .484.625 1.097 1.12 1.097h2.24c.496 0 1.12-.613 1.12-1.097V1.098c0-.485-.624-1.098-1.12-1.098h-2.24zm0 5.854c-.495 0-1.12.613-1.12 1.097v15.366c0 .484.625 1.098 1.12 1.098h2.24c.496 0 1.12-.614 1.12-1.098V6.951c0-.484-.624-1.097-1.12-1.097h-2.24zm73.556-4.756v21.22c0 .483-.625 1.097-1.12 1.097h-2.24c-.496 0-1.12-.614-1.12-1.098V1.097c0-.484.624-1.097 1.12-1.097h2.24c.495 0 1.12.613 1.12 1.098z" transform="translate(-1235 -19) translate(-238) translate(1473 19)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        </div>
+        <div class="search">
+           <form action="#" method="get">
+              <label>
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; fill:#a1a3a8" width="24" height="24"><defs><symbol id="searchSearch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" clip-rule="evenodd"></path></symbol></defs><g fill="#A1A3A8"><path fill-rule="evenodd" d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" clip-rule="evenodd"></path></g></svg>
+                  <input type="text" name="search" placeholder="جستجو">
+                  <img src="image/digikala.svg" alt="">
+              </label>
+           </form>
+        </div>
+        <div class="buttons">
+          <a href="">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; fill:#424750" width="24" height="24"><defs><symbol id="registerationSignIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z" clip-rule="evenodd"></path></symbol></defs><g fill="#424750"><path fill-rule="evenodd" d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z" clip-rule="evenodd"></path></g></svg>
+            ورود | ثبت نام
+          </a>
+          <span>|</span>
+          <a href="">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; fill:#424750" width="24" height="24"><defs><symbol id="cartOff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path></symbol></defs><g fill="#424750"><path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path></g></svg>            
+          </a>
+        </div>
+      </div>
+      <div class="menu2">
+          <nav class="menuSelf">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="">دسته بندی کالاها</a>
+                <div class="menu3">
+                    <nav class="menu3__nav">
+                      <ul class="menu3__list">
+                        <li class="menu3__item">
+                          <a href="" class="menu3__link"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><defs><symbol id="mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7 1h10a3 3 0 013 3v16a3 3 0 01-3 3H7a3 3 0 01-3-3V4a3 3 0 013-3zm0 2a1 1 0 00-1 1v16a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7zm5 17a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></symbol></defs><g><path fill-rule="evenodd" d="M7 1h10a3 3 0 013 3v16a3 3 0 01-3 3H7a3 3 0 01-3-3V4a3 3 0 013-3zm0 2a1 1 0 00-1 1v16a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7zm5 17a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></g></svg> مرحله دوم-1</a>
+                          <div class="menu4">
+                            <div class="head">
+                                <a href="">مشاهده همه</a>
+                            </div>
+                            <nav class="menu4__nav">
+                              <ul class="menu4__list">
+                                <li class="menu4__item"><a href="" class="menu4__link title">مرحله سوم-1</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-2</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-3</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-4</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-5</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-6</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-7</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link title">مرحله سوم-8</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-9</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-10</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-11</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-12</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-13</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-14</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-15</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-16</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-17</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-18</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-19</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-20</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-21</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-22</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-23</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-24</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-25</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-26</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-27</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-28</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-29</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-30</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-31</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-32</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-33</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-34</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-35</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-36</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-37</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-38</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-39</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-40</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-41</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-42</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-43</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-44</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-45</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-46</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-47</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-48</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-49</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-50</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-51</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-52</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-10</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-11</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-12</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-13</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-14</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-15</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-16</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-17</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-18</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-19</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-20</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-21</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-22</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-23</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-24</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-25</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-26</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-27</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-28</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-29</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-30</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-31</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-32</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-33</a></li>
+                                <li class="menu4__item"><a href="" class="menu4__link">مرحله سوم-34</a></li>
+                              </ul>
+                            </nav>
+                          </div>
+                        </li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-2</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-3</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-4</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-5</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-6</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-7</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-8</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-9</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-10</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-11</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-12</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-11</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-12</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-11</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-12</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-11</a></li>
+                        <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-12</a></li>
+                      </ul>
+                    </nav>
+                </div>
+              </li>
+              <li class="menu__item"><a class="menu__link" href="">دسته بندی کالاها</a></li>
+              <li class="menu__item"><a class="menu__link" href="">شگفت انگیزها</a></li>
+              <li class="menu__item"><a class="menu__link" href="">شگفت انگیزها</a></li>
+              <li class="menu__item"><a class="menu__link" href="">شگفت انگیزها</a></li>
+              <li class="menu__item"><a class="menu__link" href="">شگفت انگیزها</a></li>
+              <li class="menu__item"><a class="menu__link" href="">شگفت انگیزها</a></li>
+              <li class="menu__item">|</li>
+              <li class="menu__item"><a class="menu__link" href="">شگفت انگیزها</a></li>
+              <li class="menu__item"><a class="menu__link" href="">شگفت انگیزها</a></li>
+            </ul>
+          </nav> 
+          <label for="openCity" class="city">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 20px; height: 20px;" width="24" height="24"><defs><symbol id="pin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z" clip-rule="evenodd"></path></symbol></defs><g fill="#424750"><path fill-rule="evenodd" d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z" clip-rule="evenodd"></path></g></svg>
+            لطفا شهر خود را انتخاب کنید
+          </label>
+          
+      </div>
+    </header>
+    <div class="cityCover">
+      <div class="cities">
+        <h2 class="title">انتخاب شهر</h2>
+        <label for="closeCity">
+          <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+        </label>
+        <nav class="cities__nav">
+          <ul class="cities__list">
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+            <li class="cities__item"><a href="" class="cities__link">
+              استان-1
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: var(--color-icon-high-emphasis);" width="24" height="24"><defs><symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></symbol></defs><g fill="#424750"><path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path></g></svg>
+            </a></li>
+          </ul>
+        </nav> 
+      </div>
+    </div>
+    <main>
+      <section class="stories">
+         <a class="story" href="">
+           <div class="img">
+               <img src="image/s1.jpeg" alt="">
+           </div>
+           <span class="">ماندگار باش</span>
+         </a>
+         <a class="story" href="">
+           <div class="img">
+               <img src="image/s1.jpeg" alt="">
+           </div>
+           <span class="">ماندگار باش</span>
+         </a>
+         <a class="story" href="">
+           <div class="img">
+               <img src="image/s1.jpeg" alt="">
+           </div>
+           <span class="">ماندگار باش</span>
+         </a>
+         <a class="story" href="">
+           <div class="img">
+               <img src="image/s1.jpeg" alt="">
+           </div>
+           <span class="">ماندگار باش</span>
+         </a>
+         <a class="story" href="">
+           <div class="img">
+               <img src="image/s1.jpeg" alt="">
+           </div>
+           <span class="">ماندگار باش</span>
+         </a>
+         <a class="story" href="">
+           <div class="img">
+               <img src="image/s1.jpeg" alt="">
+           </div>
+           <span class="">ماندگار باش</span>
+         </a>
+         <a class="story" href="">
+           <div class="img">
+               <img src="image/s1.jpeg" alt="">
+           </div>
+           <span class="">ماندگار باش</span>
+         </a>
+      </section>
+      <section class="silder1">
+        <div class="swiper mySwiper1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/9fee5abc74550552e9016e1d1a90b0419d915e14_1695130651.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""></a></div>
+            <div class="swiper-slide"><a><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/9fee5abc74550552e9016e1d1a90b0419d915e14_1695130651.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""></a></div>
+            <div class="swiper-slide"><a><img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/9fee5abc74550552e9016e1d1a90b0419d915e14_1695130651.jpg?x-oss-process=image/quality,q_95/format,webp" alt=""></a></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <div class="container">
+         <section class="services">
+            <div class="service">
+              <a href="">
+                  <div class="img">
+                    <img src="image/service1.png" alt="">
+                  </div>
+                  <span>دیجی کالا جت</span>
+              </a>
+            </div>
+            <div class="service">
+              <a href="">
+                <div class="img">
+                    <img src="image/service1.png" alt="">
+                </div>
+                <span>دیجی کالا جت</span>
+              </a>
+            </div>
+            <div class="service">
+            <a href="">
+              <div class="img">
+                  <img src="image/service1.png" alt="">
+              </div>
+              <span>دیجی کالا جت</span>
+            </a>
+            </div>
+            <div class="service">
+          <a href="">
+            <div class="img">
+                <img src="image/service1.png" alt="">
+            </div>
+            <span>دیجی کالا جت</span>
+          </a>
+            </div>
+            <div class="service">
+            <a href="">
+              <div class="img">
+                  <img src="image/service1.png" alt="">
+              </div>
+              <span>دیجی کالا جت</span>
+            </a>
+            </div>
+            <div class="service">
+            <a href="">
+              <div class="img">
+                  <img src="image/service1.png" alt="">
+              </div>
+              <span>دیجی کالا جت</span>
+            </a>
+            </div>
+            <div class="service">
+              <a href="">
+                <div class="img">
+                    <img src="image/service1.png" alt="">
+                </div>
+                <span>دیجی کالا جت</span>
+              </a>
+            </div>
+            <div class="service">
+              <a href="">
+                <div class="circle">
+                    <div class="miniC"></div>
+                    <div class="miniC"></div>
+                    <div class="miniC"></div>
+                </div>
+                <span>بیشتر</span>
+              </a>
+            </div>
+         </section>
+         <section class="slider2">
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/Amazings.svg">
+                    <img src="image/box.webp">
+                    <a href="">مشاهده همه</a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="img">
+                          <img src="image/box_cratiin.webp" alt="">
+                        </div>
+                        <div class="price">
+                          <span class="exact__price">399000</span>
+                          <span class="discount">5%</span>
+                        </div>
+                        <del>400000</del>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="">
+                      <div class="img">
+                        <img src="image/box_cratiin.webp" alt="">
+                      </div>
+                      <div class="price">
+                        <span class="exact__price">399000</span>
+                        <span class="discount">5%</span>
+                      </div>
+                      <del>400000</del>
+                  </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="img">
+                      <img src="image/box_cratiin.webp" alt="">
+                    </div>
+                    <div class="price">
+                      <span class="exact__price">399000</span>
+                      <span class="discount">5%</span>
+                    </div>
+                    <del>400000</del>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="img">
+                      <img src="image/box_cratiin.webp" alt="">
+                    </div>
+                    <div class="price">
+                      <span class="exact__price">399000</span>
+                      <span class="discount">5%</span>
+                    </div>
+                    <del>400000</del>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="img">
+                      <img src="image/box_cratiin.webp" alt="">
+                    </div>
+                    <div class="price">
+                      <span class="exact__price">399000</span>
+                      <span class="discount">5%</span>
+                    </div>
+                    <del>400000</del>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="img">
+                      <img src="image/box_cratiin.webp" alt="">
+                    </div>
+                    <div class="price">
+                      <span class="exact__price">399000</span>
+                      <span class="discount">5%</span>
+                    </div>
+                    <del>400000</del>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="img">
+                      <img src="image/box_cratiin.webp" alt="">
+                    </div>
+                    <div class="price">
+                      <span class="exact__price">399000</span>
+                      <span class="discount">5%</span>
+                    </div>
+                    <del>400000</del>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="img">
+                      <img src="image/box_cratiin.webp" alt="">
+                    </div>
+                    <div class="price">
+                      <span class="exact__price">399000</span>
+                      <span class="discount">5%</span>
+                    </div>
+                    <del>400000</del>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <div class="img">
+                      <img src="image/box_cratiin.webp" alt="">
+                    </div>
+                    <div class="price">
+                      <span class="exact__price">399000</span>
+                      <span class="discount">5%</span>
+                    </div>
+                    <del>400000</del>
+                </a>
+              </div>
+              <div class="swiper-slide"> مشاهده همه</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>      
+         </section>
+         <section class="services2">
+            <div class="nested__item1">
+              <div>
+                <img class="img__home" src="image/shopping_basket.png" alt="">
+              </div >
+                <div>
+                  <svg width="273" height="28" viewBox="0 0 273 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M237.583 0.27611C237.718 0.101897 237.927 0 238.147 0H238.862C239.011 0 239.095 0.171126 239.003 0.288573L234.436 6.16069C234.301 6.33491 234.092 6.4368 233.872 6.4368H233.157C233.008 6.4368 232.924 6.26568 233.016 6.14823L237.583 0.27611Z" fill="#39AE00"/>
+                    <path d="M228.852 1.34015C228.813 0.971571 228.528 0.7152 228.142 0.7152H225.639L225.552 0.719685C225.181 0.758274 224.924 1.04214 224.924 1.42714V3.56294L224.928 3.64995C224.967 4.01863 225.252 4.27488 225.639 4.27488H228.142L228.229 4.27039C228.599 4.23182 228.857 3.94806 228.857 3.56294V1.42714L228.852 1.34015Z" fill="#39AE00"/>
+                    <path d="M260.744 5.82881C260.344 5.82881 260.015 5.52755 259.973 5.14101L259.969 5.05695L259.969 1.48708C259.969 1.08917 260.271 0.761646 260.66 0.719744L260.744 0.715215H262.917C263.317 0.715215 263.646 1.01622 263.688 1.40297L263.692 1.48708L263.693 2.49463L266.191 2.49446C266.591 2.49446 266.92 2.79546 266.962 3.18222L266.967 3.26632V5.05695C266.967 5.45457 266.664 5.78234 266.276 5.82428L266.191 5.82881H260.744Z" fill="#39AE00"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M55.1609 2.1456C55.1609 1.75061 55.4811 1.4304 55.8761 1.4304H58.0217C58.4167 1.4304 58.7369 1.75061 58.7369 2.1456V10.0053L58.7369 10.0128V14.304C58.7369 15.489 59.6976 16.4496 60.8825 16.4496H62.7288C62.4606 15.787 62.3129 15.0628 62.3129 14.304V12.1584C62.3129 8.99845 64.8746 6.4368 68.0345 6.4368C71.1945 6.4368 73.7561 8.99845 73.7561 12.1584V14.304C73.7561 17.464 71.1945 20.0256 68.0345 20.0256H60.8825C57.7226 20.0256 55.1609 17.464 55.1609 14.304V13.5968L55.1609 13.5888V2.1456ZM70.1801 12.1584C70.1801 10.9734 69.2195 10.0128 68.0345 10.0128C66.8495 10.0128 65.8889 10.9734 65.8889 12.1584V14.304C65.8889 15.489 66.8495 16.4496 68.0345 16.4496C69.2195 16.4496 70.1801 15.489 70.1801 14.304V12.1584Z" fill="#39AE00"/>
+                    <path d="M23.6862 7.06175C23.6475 6.69317 23.3625 6.4368 22.9757 6.4368H17.2552L17.1678 6.44129C16.7975 6.47988 16.5401 6.76375 16.5401 7.14874V9.28454L16.5446 9.37155C16.5833 9.74023 16.8684 9.99648 17.2552 9.99648H22.9757L23.0631 9.99199C23.4334 9.95342 23.6907 9.66967 23.6907 9.28454V7.14874L23.6862 7.06175Z" fill="#39AE00"/>
+                    <path d="M90.7624 23.5742C90.7203 23.1877 90.3913 22.8864 89.9916 22.8864H84.5443L84.4598 22.8909C84.0713 22.9329 83.7689 23.2606 83.7689 23.6583V25.4489L83.7735 25.533C83.8156 25.9198 84.1446 26.2208 84.5443 26.2208L87.0426 26.2206L87.0433 27.2281L87.0479 27.3122C87.09 27.699 87.419 28 87.819 28H89.9914L90.0759 27.9955C90.4644 27.9536 90.7668 27.626 90.7668 27.2281L90.767 23.6583L90.7624 23.5742Z" fill="#39AE00"/>
+                    <path d="M17.328 20.7669C17.328 23.7253 14.7367 26.3612 11.7786 26.4596L11.6075 26.4624H5.87853C2.71991 26.4624 0.250689 24.0638 0.168583 20.9475L0.166504 20.7669V14.3595C0.166504 13.9749 0.424273 13.6907 0.794285 13.6521L0.8816 13.6476H3.02679C3.41321 13.6476 3.69855 13.9043 3.73734 14.2726L3.74185 14.3595L3.73446 20.7547C3.73445 21.8997 4.62768 22.8338 5.75398 22.8991L5.88006 22.9027H11.6075C12.5474 22.9027 13.6694 21.8191 13.7483 20.8716L13.7527 20.7669H10.8925C10.5057 20.7669 10.2207 20.5107 10.1819 20.142L10.1774 20.055V17.8767C10.1774 17.4918 10.4348 17.2079 10.8051 17.1693L10.8925 17.1648L22.9462 17.1648C24.1312 17.1648 25.0918 16.2042 25.0918 15.0192V10.728C25.0918 10.333 25.412 10.0128 25.807 10.0128H27.9526C28.3476 10.0128 28.6678 10.333 28.6678 10.728V15.0192C28.6678 15.778 28.5201 16.5022 28.2519 17.1648L42.9988 17.1648V13.5888C42.9988 11.542 41.4699 10.0128 39.4235 10.0128H31.2003C30.5567 10.0128 30.4327 9.43603 30.8427 8.94L36.8649 1.24778C37.1438 0.910509 37.5587 0.7152 37.9961 0.7152H40.7432C41.2958 0.7152 41.5986 1.35888 41.2465 1.78478L37.6358 6.4368H39.4235C43.5238 6.4368 46.5741 9.4876 46.5741 13.5888V20.0256C46.5741 20.441 46.2745 20.7408 45.8591 20.7408L27.9729 20.7408C27.7382 20.7408 27.5185 20.6257 27.3849 20.4327L26.654 19.377C25.6554 20.2275 24.3607 20.7408 22.9462 20.7408H17.3228L17.328 20.7669Z" fill="#39AE00"/>
+                    <path d="M207.753 7.06175C207.715 6.69317 207.429 6.4368 207.043 6.4368H201.322L201.235 6.44129C200.864 6.47988 200.607 6.76375 200.607 7.14874V9.28454L200.612 9.37155C200.65 9.74023 200.935 9.99648 201.322 9.99648H207.043L207.13 9.99199C207.5 9.95342 207.758 9.66967 207.758 9.28454V7.14874L207.753 7.06175Z" fill="#39AE00"/>
+                    <path d="M149.827 22.8864C150.213 22.8864 150.499 23.1428 150.537 23.5114L150.542 23.5983V25.7341C150.542 26.1193 150.284 26.403 149.914 26.4416L149.827 26.4461H144.106C143.719 26.4461 143.434 26.1898 143.396 25.8212L143.391 25.7341V23.5983C143.391 23.2134 143.648 22.9295 144.019 22.8909L144.106 22.8864H149.827Z" fill="#39AE00"/>
+                    <path d="M139.811 3.48575C139.772 3.11717 139.487 2.8608 139.1 2.8608H136.954L136.867 2.86529C136.497 2.90387 136.239 3.18774 136.239 3.57274V5.70854L136.244 5.79555C136.282 6.16423 136.567 6.42048 136.954 6.42048H139.1L139.187 6.41599C139.558 6.37742 139.815 6.09366 139.815 5.70854V3.57274L139.811 3.48575Z" fill="#39AE00"/>
+                    <path d="M177.362 2.8608C177.749 2.8608 178.034 3.11717 178.073 3.48575L178.078 3.57274V5.70854C178.078 6.09366 177.82 6.37742 177.45 6.41599L177.362 6.42048H174.86C174.473 6.42048 174.188 6.16423 174.149 5.79555L174.145 5.70854V3.57274C174.145 3.18774 174.402 2.90387 174.772 2.86529L174.86 2.8608H177.362Z" fill="#39AE00"/>
+                    <path d="M160.191 0.7152C159.97 0.7152 159.761 0.817097 159.626 0.99131L155.059 6.86343C154.967 6.98088 155.051 7.152 155.2 7.152H155.915C156.136 7.152 156.344 7.05011 156.479 6.87589L161.047 1.00377C161.138 0.886327 161.054 0.7152 160.906 0.7152H160.191Z" fill="#39AE00"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M232.375 17.1648C232.643 16.5022 232.791 15.778 232.791 15.0192V12.8736C232.791 9.71365 230.229 7.152 227.07 7.152C223.91 7.152 221.348 9.71365 221.348 12.8736V15.0192C221.348 15.778 221.496 16.5022 221.764 17.1648H216.613C216.881 16.5022 217.029 15.778 217.029 15.0192V10.728C217.029 10.333 216.709 10.0128 216.314 10.0128H214.168C213.773 10.0128 213.453 10.333 213.453 10.728V15.0192C213.453 16.2042 212.492 17.1648 211.307 17.1648H197.031C195.846 17.1648 194.885 16.2042 194.885 15.0192V10.728C194.885 10.333 194.565 10.0128 194.17 10.0128H192.025C191.63 10.0128 191.31 10.333 191.31 10.728V15.0192C191.31 18.1792 193.871 20.7408 197.031 20.7408H211.307C212.721 20.7408 214.015 20.2281 215.013 19.3786L215.743 20.4327C215.877 20.6257 216.096 20.7408 216.331 20.7408L242.801 20.7408C244.48 20.7408 245.983 20.2291 247.173 19.3431L247.927 20.4327C248.061 20.6257 248.28 20.7408 248.515 20.7408H252.789C254.203 20.7408 255.497 20.2282 256.495 19.3787L257.225 20.4327C257.358 20.6257 257.578 20.7408 257.813 20.7408H260.646C262.066 20.7408 263.365 20.2237 264.365 19.3676L265.102 20.4327C265.236 20.6257 265.456 20.7408 265.69 20.7408H266.378C269.538 20.7408 272.1 18.1792 272.1 15.0192V10.728C272.1 10.333 271.779 10.0128 271.384 10.0128H269.239C268.844 10.0128 268.524 10.333 268.524 10.728V15.0192C268.524 16.2042 267.563 17.1648 266.378 17.1648H265.952C266.22 16.5022 266.368 15.778 266.368 15.0192V10.728C266.368 10.333 266.047 10.0128 265.652 10.0128H263.507C263.112 10.0128 262.792 10.333 262.792 10.728V15.0192C262.792 16.2042 261.831 17.1648 260.646 17.1648H258.095C258.363 16.5022 258.511 15.778 258.511 15.0192V10.728C258.511 10.333 258.191 10.0128 257.796 10.0128H255.65C255.255 10.0128 254.935 10.333 254.935 10.728V15.0192C254.935 16.2042 253.974 17.1648 252.789 17.1648H249.065C249.633 16.1271 249.951 14.9127 249.951 13.5888V12.8736C249.951 8.7724 246.901 5.7216 242.801 5.7216H241.013L244.624 1.06958C244.976 0.64368 244.673 0 244.12 0H241.373C240.936 0 240.521 0.195309 240.242 0.532583L234.22 8.2248C233.81 8.72083 233.934 9.2976 234.577 9.2976H242.801C244.847 9.2976 246.376 10.8268 246.376 12.8736V13.5888C246.376 15.6356 244.847 17.1648 242.801 17.1648L232.375 17.1648ZM229.215 15.0192V12.8736C229.215 11.6886 228.255 10.728 227.07 10.728C225.885 10.728 224.924 11.6886 224.924 12.8736V15.0192C224.924 16.2042 225.885 17.1648 227.07 17.1648C228.255 17.1648 229.215 16.2042 229.215 15.0192Z" fill="#39AE00"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M104.51 17.1648V12.8736C104.51 9.71365 101.948 7.152 98.7881 7.152C95.6282 7.152 93.0665 9.71365 93.0665 12.8736V15.0192C93.0665 18.1792 95.6282 20.7408 98.7881 20.7408C99.3758 20.7408 99.9428 20.6522 100.476 20.4876C99.8643 21.5153 98.746 22.1712 97.4057 22.1712H94.3762C93.7326 22.1712 93.6086 22.748 94.0186 23.244L95.5488 25.1986C95.8199 25.5449 96.2353 25.7472 96.6751 25.7472H97.4057C100.751 25.7472 103.398 23.7162 104.259 20.7408H108.055C109.469 20.7408 110.762 20.2282 111.761 19.3787L112.49 20.4327C112.624 20.6257 112.844 20.7408 113.079 20.7408H115.912C117.332 20.7408 118.631 20.2237 119.631 19.3676L120.368 20.4327C120.502 20.6257 120.721 20.7408 120.956 20.7408H121.644C124.804 20.7408 127.365 18.1792 127.365 15.0192V10.728C127.365 10.333 127.045 10.0128 126.65 10.0128H124.505C124.11 10.0128 123.789 10.333 123.789 10.728V15.0192C123.789 16.2042 122.829 17.1648 121.644 17.1648H121.218C121.486 16.5022 121.633 15.778 121.633 15.0192V10.728C121.633 10.333 121.313 10.0128 120.918 10.0128H118.773C118.378 10.0128 118.057 10.333 118.057 10.728V15.0192C118.057 16.2042 117.097 17.1648 115.912 17.1648H113.361C113.629 16.5022 113.777 15.778 113.777 15.0192V10.728C113.777 10.333 113.456 10.0128 113.061 10.0128H110.916C110.521 10.0128 110.201 10.333 110.201 10.728V15.0192C110.201 16.2042 109.24 17.1648 108.055 17.1648H104.51ZM100.934 12.8736V15.0192C100.934 16.2042 99.9731 17.1648 98.7881 17.1648C97.6031 17.1648 96.6425 16.2042 96.6425 15.0192V12.8736C96.6425 11.6886 97.6031 10.728 98.7881 10.728C99.9731 10.728 100.934 11.6886 100.934 12.8736Z" fill="#39AE00"/>
+                    <path d="M170.1 18.5546L171.401 20.4327C171.534 20.6257 171.754 20.7408 171.989 20.7408H176.978C180.138 20.7408 182.7 18.1792 182.7 15.0192V10.728C182.7 10.333 182.379 10.0128 181.984 10.0128H179.839C179.444 10.0128 179.124 10.333 179.124 10.728V15.0192C179.124 16.2042 178.163 17.1648 176.978 17.1648H171.108C171.677 16.1271 171.995 14.9127 171.995 13.5888V12.8736C171.995 8.7724 168.944 5.7216 164.844 5.7216H163.056L166.667 1.06958C167.019 0.64368 166.716 0 166.164 0H163.417C162.979 0 162.564 0.195309 162.285 0.532583L156.263 8.2248C155.853 8.72083 155.977 9.2976 156.621 9.2976H164.844C166.89 9.2976 168.419 10.8268 168.419 12.8736V13.5888C168.419 15.6356 166.89 17.1648 164.844 17.1648H152.96C153.229 16.5022 153.376 15.778 153.376 15.0192V10.728C153.376 10.333 153.056 10.0128 152.661 10.0128H150.516C150.121 10.0128 149.8 10.333 149.8 10.728V15.0192C149.8 16.2042 148.84 17.1648 147.655 17.1648H139.862V10.728C139.862 10.333 139.541 10.0128 139.146 10.0128H137.001C136.606 10.0128 136.286 10.333 136.286 10.728V19.3104C136.286 21.3572 134.758 22.8864 132.711 22.8864H129.682C129.038 22.8864 128.914 23.4632 129.324 23.9592L130.854 25.9138C131.125 26.2601 131.541 26.4624 131.981 26.4624H132.711C136.811 26.4624 139.862 23.4116 139.862 19.3104L139.862 19.298L140.647 20.4327C140.781 20.6257 141 20.7408 141.235 20.7408H147.655C149.089 20.7408 150.401 20.2128 151.405 19.3405L152.501 20.7408H164.844C166.972 20.7408 168.818 19.9188 170.1 18.5546Z" fill="#39AE00"/>
+                    <path d="M79.5945 20.4327L79.4266 20.1902C79.024 23.8404 76.1251 26.4624 72.3239 26.4624H71.5933C71.1535 26.4624 70.7381 26.2601 70.467 25.9138L68.9368 23.9592C68.5267 23.4632 68.6507 22.8864 69.2943 22.8864H72.3239C74.3703 22.8864 75.8992 21.3572 75.8992 19.3104L75.8985 10.728C75.8985 10.333 76.2187 10.0128 76.6137 10.0128H78.7593C79.1543 10.0128 79.4745 10.333 79.4745 10.728V17.1648H85.1718C86.3568 17.1648 87.3174 16.2042 87.3174 15.0192V10.728C87.3174 10.333 87.6376 10.0128 88.0326 10.0128H90.1782C90.5732 10.0128 90.8934 10.333 90.8934 10.728V15.0192C90.8934 18.1792 88.3317 20.7408 85.1718 20.7408H80.1825C79.9478 20.7408 79.7281 20.6257 79.5945 20.4327Z" fill="#39AE00"/>
+                    <path d="M42.5242 23.9592L44.0544 25.9138C44.3255 26.2601 44.7409 26.4624 45.1807 26.4624H45.9113C50.0116 26.4624 53.0619 23.4116 53.0619 19.3104V10.728C53.0619 10.333 52.7417 10.0128 52.3467 10.0128H50.2011C49.8061 10.0128 49.4859 10.333 49.4859 10.728V19.3104C49.4859 21.3572 47.9577 22.8864 45.9113 22.8864H42.8817C42.2382 22.8864 42.1142 23.4632 42.5242 23.9592Z" fill="#39AE00"/>
+                    <path d="M185.588 2.1456C185.193 2.1456 184.873 2.46581 184.873 2.8608V20.0256C184.873 20.4206 185.193 20.7408 185.588 20.7408H187.734C188.128 20.7408 188.449 20.4206 188.449 20.0256V2.8608C188.449 2.46581 188.128 2.1456 187.734 2.1456H185.588Z" fill="#39AE00"/>
+                    </svg>
+                </div>
+                
+                <div class="discount">
+                  <p>تا 41 تخفیف</p>
+              </div>
+            </div>
+            <div class="nested__item2">
+              <div class="item">
+                  <img src="image/toothpaste.jpg" alt="">
+                  <p>25%</p>
+              </div>
+            </div>
+             <div class="nested__item2">
+              <div class="item">
+                  <img src="image/toothpaste.jpg" alt="">
+                  <p>25%</p>
+              </div>
+              <div class="item">
+                <img src="image/toothpaste.jpg" alt="">
+                <p>25%</p>
+              </div>
+              <div class="item">
+                <img src="image/toothpaste.jpg" alt="">
+                <p>25%</p>
+              </div>
+              <div class="item">
+                <img src="image/toothpaste.jpg" alt="">
+                <p>25%</p>
+              </div>
+              <div class="item">
+                <img src="image/toothpaste.jpg" alt="">
+                <p>25%</p>
+              </div>
+              <div class="item">
+                <img src="image/toothpaste.jpg" alt="">
+                <p>25%</p>
+              </div>
+              <div class="item">
+                <img src="image/toothpaste.jpg" alt="">
+                <p>25%</p>
+              </div>
+            </div>
+         </section>
+         <section class="services3">
+            <div class="service">
+              <img src="image/product_gardoone.webp" alt="">
+            </div>
+            <div class="service">
+              <img src="image/product_gardoone.webp" alt="">
+            </div>
+            <div class="service">
+              <img src="image/product_gardoone.webp" alt="">
+            </div>
+            <div class="service">
+              <img src="image/product_gardoone.webp" alt="">
+            </div>
+         </section>
+         <section class="services4">
+            <div class="service">
+               <img src="image/milk_bottle.png" alt="">
+               <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+              <img src="image/milk_bottle.png" alt="">
+              <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+              <img src="image/milk_bottle.png" alt="">
+              <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+              <img src="image/milk_bottle.png" alt="">
+              <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+                <img src="image/milk_bottle.png" alt="">
+                <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+                <img src="image/milk_bottle.png" alt="">
+                <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+              <img src="image/milk_bottle.png" alt="">
+              <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+              <img src="image/milk_bottle.png" alt="">
+              <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+              <img src="image/milk_bottle.png" alt="">
+              <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+              <img src="image/milk_bottle.png" alt="">
+              <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+               <img src="image/milk_bottle.png" alt="">
+               <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+               <img src="image/milk_bottle.png" alt="">
+               <p>کالاهای سوپر مارکتی</p>
+            </div>
+            <div class="service">
+                <img src="image/milk_bottle.png" alt="">
+                <p>کالاهای سوپر مارکتی</p>
+            </div>
+         </section>
+         <section class="services5">
+          <div class="service">
+            <img src="image/jumber_blue.jpg" alt="">
+         </div>
+         <div class="service">
+           <img src="image/baby_red.jpg" alt="">
+          
+         </div>
+         </section>
+         <section class="services6_heaer">
+            <h2>پیشنهاد دیجی‌کالا</h2>
+         </section>
+         <section class="services6_body">
+          <div class="swiper mySwiper4">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+          </div>
+         </section>
+       <section class="services7">
+          <section class="services7_heaer">
+              <h2>محبوب ترین برندها</h2>
+          </section>
+          <section class="services7_body">
+            <div class="swiper mySwiper4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/prile_bottle.png"></div>
+                <div class="swiper-slide"><img src="image/Huawei.png"></div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+              </div>
+            </div>
+          </section>
+         </section>  
+         </section>
+         <section class="slider3">
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+            </div>
+          </div>
+         </section>
+      </div>
+     
+    </main>
+    <div class="miniMenu">
+       <nav class="miniMenu__nav">
+        <ul class="miniMenu__list">
+          <li class="miniMenu__item">
+            <a class="link" href="">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px;" width="24" height="24"><defs><symbol id="home1Fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11.586v6.586a3 3 0 01-3 3H7a3 3 0 01-3-3v-6.586l-1.293 1.293-1.414-1.415L9.879 2.88a3 3 0 014.242 0l8.586 8.585-1.414 1.415L20 11.586z"></path></symbol></defs><g fill="#424750"><path d="M20 11.586v6.586a3 3 0 01-3 3H7a3 3 0 01-3-3v-6.586l-1.293 1.293-1.414-1.415L9.879 2.88a3 3 0 014.242 0l8.586 8.585-1.414 1.415L20 11.586z"></path></g></svg>
+              خانه
+            </a>
+          </li>
+          <li class="miniMenu__item"><a class="link" href="">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px;" width="24" height="24"><defs><symbol id="categoryOutline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2H3a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V3a1 1 0 00-1-1zM4 9V4h5v5H4zm17 4a1 1 0 011 1v7a1 1 0 01-1 1h-7a1 1 0 01-1-1v-7a1 1 0 011-1h7zm-3.5-2a4.5 4.5 0 110-9 4.5 4.5 0 010 9zM20 6.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM6.5 22a4.5 4.5 0 110-9 4.5 4.5 0 010 9zM9 17.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm6 2.5v-5h5v5h-5z" clip-rule="evenodd"></path></symbol></defs><g fill="#A1A3A8"><path fill-rule="evenodd" d="M10 2H3a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V3a1 1 0 00-1-1zM4 9V4h5v5H4zm17 4a1 1 0 011 1v7a1 1 0 01-1 1h-7a1 1 0 01-1-1v-7a1 1 0 011-1h7zm-3.5-2a4.5 4.5 0 110-9 4.5 4.5 0 010 9zM20 6.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM6.5 22a4.5 4.5 0 110-9 4.5 4.5 0 010 9zM9 17.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm6 2.5v-5h5v5h-5z" clip-rule="evenodd"></path></g></svg>
+            دسته بندی</a></li>
+          <li class="miniMenu__item"><a class="link" href="">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px;" width="24" height="24"><defs><symbol id="cartOff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path></symbol></defs><g fill="#A1A3A8"><path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path></g></svg>
+            سبد خرید</a></li>
+          <li class="miniMenu__item"><a class="link" href="">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px;" width="24" height="24"><defs><symbol id="profileOff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2a5 5 0 015 5v1A5 5 0 017 8V7a5 5 0 015-5zm9.996 18.908C21.572 16.318 18.096 14 12 14c-6.095 0-9.572 2.318-9.996 6.908A1 1 0 003 22h18a1 1 0 00.996-1.092zM4.188 20c.728-2.677 3.231-4 7.812-4 4.58 0 7.084 1.323 7.812 4H4.188zM9 7a3 3 0 116 0v1a3 3 0 01-6 0V7z" clip-rule="evenodd"></path></symbol></defs><g fill="#A1A3A8"><path fill-rule="evenodd" d="M12 2a5 5 0 015 5v1A5 5 0 017 8V7a5 5 0 015-5zm9.996 18.908C21.572 16.318 18.096 14 12 14c-6.095 0-9.572 2.318-9.996 6.908A1 1 0 003 22h18a1 1 0 00.996-1.092zM4.188 20c.728-2.677 3.231-4 7.812-4 4.58 0 7.084 1.323 7.812 4H4.188zM9 7a3 3 0 116 0v1a3 3 0 01-6 0V7z" clip-rule="evenodd"></path></g></svg>
+            دیجی کالا من</a></li>
+        </ul>
+       </nav>
+    </div>
+   
+    <section class="menu" style="display: none;">
+      <nav class="menu__nav">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="">دسته بندی کالاها</a>
+              <div class="menu2">
+                <nav class="menu2__nav">
+                  <ul class="menu2__list">
+                    <li class="menu2__item"><a href="" class="menu2__link">موبایل-1</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">برندهای مختلف گوشی موبایل-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی اپل-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی سامسونگ-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی شیائومی-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی نوکیا-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی هواوی-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی آنر-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی موتورولا-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی ریلمی-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی ناتینگ-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی ارد-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی جی پلاس-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی وان پلاس-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی جی ال ایکس-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی بر اساس قیمت-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 2 میلیون تومان-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 5 میلیون تومان-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 7 میلیون تومان-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 15 میلیون تومان-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی بالای 15 میلیون تومان-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی بر اساس حافظه داخلی-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 16 گیگابایت-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 32 گیگابایت-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 64 گیگابایت-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 128 گیگابایت-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 256 گیگابایت-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 1 ترابایت-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">رزولوشن عکس-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 13 مگاپیکسل-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 16 مگاپیکسل-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 48 مگاپیکسل-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی تا 108 مگاپیکسل-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی بر اساس کاربری-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی اقتصادی-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی میان رده-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی دانش آموزی-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی گیمینگ-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی پرچمدار-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی ضد آب-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی مناسب عکاسی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشی5-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دو سیمکارت-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اندروید-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">iOS-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سایر سیستم عامل ها-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">موبایل-46</a></li>
+                          </ul> 
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">کالای دیجیتال -2</a>
+                     <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی گوشی-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف و کاور گوشی-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پاور بانک-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پایه نگهدارنده گوشی-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کتابخوان فیدیبوک-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لپ تاپ-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اپل-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ایسر-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ایسوس-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اچ پی-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لنوو-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ام اس آی-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">واقعیت مجازی-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کارت هدیه دیجی کالا-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کارت هدیه الکترونیکی-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ساعت و مچ بند هوشمند-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تلوزیون-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جی پلاس-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ایکس ویژن-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوو-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اسنوا-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">هدفون، هدست، میکروفون-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اسپیکر بلوتوث و باسیم-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">هارد، فلش و SSD -24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوربین-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوربین عکاسی دیجیتال-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوربین ورزشی و فیلم برداری-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوربین چاپ سریع-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی دوربین-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لنز-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کارت حافظه-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کاغذ چاپ عکس-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوربین دو چشمی و شکاری-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی لپ تاپ-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف، کوله و کاور-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کابل صدا، AUX و HDMI-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تبلت-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تلسکوپ-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پلی استیشن، ایکس باکس و بازی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شارژ تبلت و موبایل-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کامپیوتر و تجهیزات جانبی-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات مخصوص بازی-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مانیتور-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیس های اسمبل شده-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">قطعات داخلی کامپیوتر-46</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماوس-47</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیبورد-48</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف، کاور، لوازم جانبی تبلت-49</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">باتری-50</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوربین های تحت شبکه-51</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مودم و تجهیزات شبکه-52</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماشین های اداری-53</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تلفن، بی سیم و سانترال-54</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فکس-55</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پرینتر-56</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی اداری-57</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">خانه و آشپزخانه-3</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">تلویزیون-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ایکس ویژن-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جی پلاس-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوو-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">یخچال و فریزر-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">امرسان-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ایستکول-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دکوراتیو-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مبلمان خانگی-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دکوراسیون اداری-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آینه-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پرده-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تابلو-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ساعت دیواری و رومیزی-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شمع، گل و گلدان-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فرش ماشینی، دست بافت، تابلو-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم برقی خانگی-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماشین لباسشویی-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماشین ظرفشویی-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">هود-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گاز صفحه ای-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اجاق گاز-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مایکروویو، مایکروفر-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فر-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جاروبرقی-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جارو شارژی-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تلفن، بی سیم و سنترال-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کولر، پنکه و تصویه هوا-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قهوه و چایی ساز، آبمیوه گیر-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اتو بخار و پرسی-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حیوانات خانگی، غذا و لوازم-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آکواریوم، غذا و لوازم آبزیان-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سرو و پذیرایی-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سرویس غذاخوری-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قاشق، چنگال و کارد-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پارچ، بطری، لیوان و ماگ-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ظروف پذیرایی-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نور و روشنایی-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لامپ، چراغ و ریسه-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوستر و چراغ تزئینی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آشپزخانه-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سرویس و ظروف پخت و پز-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فلاسک و کلمن-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کتری، قوری، لوازم سرو چای-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ظروف یکبار مصرف-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">مواد شوینده-46</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شوینده ظروف-47</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شوینده لباس-48</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تمیز کننده سطوح-49</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دستمال کاغذی-50</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ملحفه، سرویس، لوازم خواب-51</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حوله و وسایل حمام-52</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پادری، کمد، لوازم اتاق خواب-53</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم دستشویی، روشویی-54</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فندک و لوازم جانبی-55</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گل، خاک، کود، لوازم باغبانی-56</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کولر گازی-57</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جی پلاس-58</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ایران رادیاتور-59</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">هایسنس-60</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کولر آبی-61</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آبسال-62</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">برفاب-63</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">انرژی-64</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">مد و پوشاک-4</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">مردانه-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لباس مردانه-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مد و پولوشرت مردانه-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پیراهن مردانه-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شلوار-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لباس زیر-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش مردانه-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش روزمره-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش رسمی-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اکسسوری مردانه-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ساعت-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کمربند-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زنانه-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لباس زنانه-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مانتو پانچو رویه-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بلوز و شومیز زنانه-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لباس راحتی زنانه-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شلوار و سرهمی زنانه-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لباس زیر-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش زنانه-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش روزمره-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش تخت-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مد و اکسسوری زنانه-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ساعت-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شال و روسری-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">طلا-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زیورآلات طلا زنانه-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زیورآلات طلا مردانه-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زیورآلات طلا دخترانه-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زیورآلات زنانه-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دستبند-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشواره-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گردنبند-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زیورآلات نقره زنانه-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عینک آفتابی زنانه-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عینک آفتابی مردانه-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک ورزشی مردانه-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک ورزشی زنانه-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی مردانه-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی زنانه-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مد و پوشاک ورزشی پسرانه-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک ورزشی دخترانه-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی پسرانه-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی دخترانه-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کوله پشتی مردانه-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بچگانه-45</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">کالاهای سوپرمارکتی-5</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">کالاهای اساسی و خوار و بار-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نان-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">برنج-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">روغن-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قند-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شکر-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سس-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">رب و کنسرو گوجه فرنگی-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خیارشور و ترشیجات-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آبلیمو، آبغوره و سرکه-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماکارونی، پاستا و رشته-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زعفران، زرشک و تزئینات غذا-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حبوبات و سویا-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">صبحانه-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مربا-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عسل-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حلواشکری، ارده و کنجد-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مواد پروتئینی-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سوسیس و کالباس-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشت گوسفندی-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشت مرغ-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تخم مرغ-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گوشت گاو و گوساله-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">میگو-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماهی-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تن ماهی-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لبنیات-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شیر-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماست-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پنیر-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خامه-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نوشیدنی ها-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چای-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دمنوش-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قهوه-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آب و آب معدنی-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماءالشعیر-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نوشابه-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شربت و آبمیوه-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">میوه و سبزی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">غذای آماده و نودل-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فرآورده های منجمد-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تنقلات-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شکلات، تافی و آبنبات-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بیسکوئیت و ویفر-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مغز طعم دار خشکبار-46</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">کیک و کلوچه-47</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چیپس و پاپ کورن-48</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">پفک و اسنک-49</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">آدامس و خوشبو کننده-50</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">کنسرو و کمپوت-51</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">خشکبار و شیرینی-52</a></li>  
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">کتاب، لوازم التحریر و هنر-6</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">کتاب و مجله-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کتاب چاپی-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مجلات خارجی و داخلی-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کتاب صوتی-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">محتوای آموزشی-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آموزش موسیقی-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آموزش ورزش و سرگرمی-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آموزش زبان-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آموزش نرم افزار و کامپیوتر-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نرم افزار-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بازی کنسول و کامپیوتر-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فیلم سینمایی، سریال و مستند-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آلبوم موسیقی-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم التحریر-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم اداری و اقلام مصرفی-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف، کوله پشتی و جامدادی-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چراغ مطالعه-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کاغذ کادو، پاکت و کارت هدیه-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نوشت افزار-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دفتر و کاغذ-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خودکار و روان نویس-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار نقاشی و رنگ آمیزی-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">میز تحریر-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آلبوم عکس-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کاغذ چاپ و پرینتر-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مداد و مداد رنگی-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آلات موسیقی-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی آلات موسیقی-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گیتار-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیبورد و ارگ-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پیانو دیجیتال-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">درام، پرکاشن، دف-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات استودیویی-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ویولن-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سازهای ایرانی-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فرش های ماشینی، دستباف، تابلو-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فرش ماشینی-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فرش دستباف-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تابلو-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">صنایع دستی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کالاهای مس-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سفال، سرامیک و چینی-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف چرمی-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ترمه، قلمکار و دستباف-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خاتم، منبت، حصیری و چوبی-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">تابلو و ساعت-46</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مینا کاری-47</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فیروزه کوبی-48</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سوزن دوزی-49</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">محصولات استخوانی-50</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جعبه و دست سازه های هنری-51</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">اسباب بازی، کودک و نوزاد-7</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">بهداشت و حمام کودک و نوزاد-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشک-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دستمال مرطوب-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حوله-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">وان حمام نوزاد-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مینی واش-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شامپو کودک و نوزاد-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک و کفش کودک و نوزاد-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لباس کودک و لباس نوزادی-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جوراب و پاپوش کودک و نوزاد-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کلاه و پیش بند نوزاد-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تبلت-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پلی استیشن، ایکس باکس و بازی-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اسباب بازی-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فکری و آموزشی-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پازل، لگو و ساختنی-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عروسک و فیگور-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اسپینر، ابزار شوخی و سرگرمی-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تفنگ، تیر و لوازم جنگی-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بازی و سرگرمی کودک-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماشین بازی، موتور و سه چرخه-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اسباب بازی، کودک و دوچرخه-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تشک بازی و پارک بازی-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تاب و سرسره-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سلامت، ایمنی و مراقبت-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تصفیه هوا-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ترازو-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوربین و پیجر اتاق کودک-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تب سنج و دماسنج-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">محافظ و ابزار ایمنی-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خواب کودک-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مبلمان اتاق کودک-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چراغ خواب کودک-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تشک کودک-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سرویس خواب-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پتو-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بالش شیردهی-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ملزومات گردش و سفر-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کالسکه و کریر-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">صندلی خودرو کودک و نوزاد-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ساک لوازم نوزاد-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی گردش و سفر-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آغوشی-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم شخصی-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">پستانک و ملزومات-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شیردوش-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شورت آموزشی-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">غذاخوری-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">صندلی غذاخوری-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شیشه شیر، سرلاک و داروخوری-37</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">زیبایی و سلامت-8</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم آرایشی-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آرایش صورت-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آرایش چشم-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آرایش ابرو-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آرایش لب-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بهداشت و زیبایی ناخن-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار آرایشی-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مراقبت پوست-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کرم مرطوب کننده و نرم کننده-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماسک صورت و بدن-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پاک کننده صورت-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تونر-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مراقبت بدن-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار مراقبت پوست-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مراقبت و زیبایی مو-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شامپو و مراقبت مو-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آرایش مو-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم بهداشتی-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مراقبت دهان و دندان-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مسواک-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خمیردندان-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دئودورانت و ضد تعریق-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">محصولات بهداشتی جنسی-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کاندوم-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بهداشت و مراقبت شخصی-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نوار بهداشتی-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کاپ قائدگی-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم اصلاح مو-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تیغ و یدک اصلاح-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زیبایی و عطر و ادکلن-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عطر و ادکلن زنانه-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عطر و ادکلن مردانه-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بادی اسپلش-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عطر جیبی-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم شخصی برقی-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سشوار-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اتو و حالت دهندهی مو-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اصلاح موی صورت-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اصلاح موی سر-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار سلامت-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماساژور-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ترازو-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دستگاه بخور و رطوبت ساز-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فشارسنج-44</a></li> 
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">ورزش و سفر-9</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک ورزشی مردانه-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک ورزشی زنانه-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی مردانه-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی زنانه-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک ورزشی پسرانه-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک ورزشی دخترانه-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی پسرانه-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش ورزشی دخترانه-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات سفر-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ساک و چمدان-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیف و کوله پشتی-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دوچرخه-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی دوچرخه-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کوهنوردی و کمپینگ-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفش کوهنوردی-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عصای کوهنوردی-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چراغ قوه و چراغ پیشانی-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چاقو و ابزار چندکاره-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قمقمه و فلاسک-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چادر-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیسه خواب-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زیرانداز سفری-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات جانبی سفر و کمپینگ-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چتر-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ساک ورزشی-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قمقمه و شیکر-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم ورزشی-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ورزش های هوازی و بدنسازی-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات جانبی ایروبیک و تناسب اندام-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دمبل-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">طناب-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بارفیکس-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تردمیل-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم پوششی و محافظتی ورزشی-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ورزش های توپی-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">توپ-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">راکت-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ورزش های آبی-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ورزش های رزمی-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اسکوتر برقی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اسکیت و اسکوتر-41</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">ابزارآلات و تجهیزات-10</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار برقی-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دریل، پیچ گوشتی و آچار بکس-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فرز و سنگ رومیزی-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">موتور برق-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مکنده و دمنده-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جاروبرقی صنعتی-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کارواش-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دستگاه جوش-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">هویه-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار برش و تراشکاری-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کمپرسور هوا-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مولتی متر-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی و یدکی ابزار برقی-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اره زنجیری-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار غیر برقی-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار دستی-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مجموعه ابزار-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نردبان-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پیچ گوشتی و فازمتر-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نظم دهنده ابزار-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">متر، تراز، اندازه گیری دقیق-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم روانکاری-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چسب صنعتی-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">انواع آچار و انبر-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پیچ و مهره، رول پلاک، میخ و پرچ-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مته و سری-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اره-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم بسته بندی-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم الکتریکی و یراق آلات-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شیرآلات-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">رنگ-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم الکتریکی-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مصالح ساختمانی-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زنگ و دربازکن-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم باغبانی و کشاورزی-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ابزار باغبانی-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ادوات کشاورزی-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بذر و تخم گیاهان-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خاک، کود و آفت کش-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کاشت و پرورش گیاه-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات ایمنی و کار-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ماسک تنفسی-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم آتش نشانی-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم ایمنی و کار-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جعبه کمک های اولیه-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">برچسب و علائم ایمنی-46</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حفاظتی و امنیتی-47</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گاوصندوق-48</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قفل-49</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دستگاه های حمل و بالابر صنعتی-50</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قطعات یدکی ماشین آلات صنعتی-51</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات کارگاهی-52</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">خودرو و موتورسیکلت-11</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">خودرو-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خودرو و موتورسیکلت-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">موتورسیکلت-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم مصرفی خودرو-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">روغن موتور-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">فیلترها-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خودرو و قطعات سرویسی-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">روغن گیربکس-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">روغن هیدرولیک-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ضدیخ و آب رادیاتور-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">باتری-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لاستیک-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خودرو و مکمل سوخت و روغن-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">واکس و پولیش-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم یدکی خودرو-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم بدنه-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چراغ-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آینه جانبی-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جلوبندی و تعلیق-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم الکترونیکی-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم مکانیکی-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم صوتی و تصویری-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دستگاه پخش-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بلندگو-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آمپلی فایر-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اف ام پلیر-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مسیریاب خودرو-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی صوتی و تصویری-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی خودرو-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لامپ-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سایر لوازم جانبی-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات آفرود-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تیونینگ و تقویت موتور-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">انواع جک-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">جاسوئیچی-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خوشبو کننده و تصفیه کننده هوای کابین-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">باربند-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سر اگزوز-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سر دنده-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">روکش صندلی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم ضد سرقت-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم تزئینی خودرو-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چادر خودرو-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات راحتی سرنشین-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تجهیزات نظم دهنده-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">عایق کاپوت، صندوق و دربها-46</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفپوش صندوق خودرو-47</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کفپوش خودرو-48</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم موتورسیکلت-49</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم مصرفی-50</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم یدکی-51</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم جانبی-52</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم ضد سرقت-53</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+                    <li class="menu2__item"><a href="" class="menu2__link">محصولات بومی و محلی-12</a>
+                      <div class="menu3">
+                        <nav class="menu3__nav">
+                          <ul class="menu3__list">
+                            <li class="menu3__item"><a href="" class="menu3__link">مواد غذایی ارگانیک-1</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خوار و بار محلی-2</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">برنج محلی-3</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">روغن محلی-4</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">صبحانه محلی-5</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عسل طبیعی-6</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حلواشکری، ارده و کنجد سنتی-7</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیک و شیرینی خانگی-8</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">شیرینی خانگی-9</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کیک و کلوچه محلی-10</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تنقلات خانگی-11</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لواشک، برگه و آلوچه خانگی-12</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تخمه و مغز طعم دار محلی-13</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لبنیات سنتی-14</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کره گیاهی و حیوانی محلی-15</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خشکبار و آجیل سنتی-16</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آجیل سنتی-17</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خرمای محلی-18</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">غلات و حبوبات ارگانیک-19</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">غلات ارگانیک-20</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">حبوبات و سویا ارگانیک-21</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ادویه و چاشنی ارگانیک-22</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ادویه های ارگانیک-23</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">زعفران و زرشک ارگانیک-24</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">عطاری-25</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ترشیجات و شور خانگی-26</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دکوراتیو سنتی-27</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوستر و چراغ آویز دست ساز-28</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">مجسمه دست ساز-29</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">گلدان دست ساز-30</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تابلو سنتی-31</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ست هدیه سنتی-32</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ست هفت سین سنتی-33</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">کاشی سنتی-34</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">آینه سنتی-35</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">محصولات بافتنی-36</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">خانه و کاشانه-37</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نوشیدنی های ارگانیک-38</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">چای ارگانیک ایرانی-39</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دمنوش گیاهی-40</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">نوشیدنی های ارگانیک-41</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">اکسسوری و زیورآلات دست ساز-42</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">پوشاک بومی و محلی-43</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قالی و قالیچه-44</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">ظروف سنتی-45</a></li> 
+                            <li class="menu3__item"><a href="" class="menu3__link">آجیل خوری سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دیس و سینی سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">قندان سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">بشقاب سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لیوان سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">دیگ و قابلمه سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">لوازم آشپزخانه سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">سبد دستباف-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">هاون سنتی-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">تخته سرو دست ساز-45</a></li>
+                            <li class="menu3__item"><a href="" class="menu3__link">رومیزی، رانر و زیربشقابی سنتی-45</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
+
+                  </ul>
+                </nav>
+              </div>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">شگفت انگیزها</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">سوپرمارکت</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">کارت هدیه</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">پرفروش ترین ها</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">سوالی دارید؟</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">در دیجیکالا بفروشید</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+  <!-- Swiper JS -->
+  <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const swiper1 = new Swiper(".mySwiper1", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      freeMode:true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    const swiper2 = new Swiper(".mySwiper2", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation:{
+        nextEl:".swiper-button-next",
+        prevEl:".swiper-button-prev"
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 4,
+          spaceBetween: 2,
+        },
+        768: {
+          slidesPerView: 5,
+          spaceBetween: 2,
+        },
+        993: {
+          slidesPerView: 6,
+          spaceBetween: 2,
+        },
+        1400: {
+          slidesPerView: 7,
+          spaceBetween: 2,
+        },
+      },
+    });
+
+    const swiper3 = new Swiper(".mySwiper3", {
+      slidesPerView: 1,
+      grid: {
+        rows: 3,
+      },
+      spaceBetween: 0,
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        993: {
+          slidesPerView: 3,
+        },
+        1400: {
+          slidesPerView: 4,
+        },
+      },
+    });
+    const swiper4 = new Swiper(".mySwiper4", {
+      slidesPerView: 1,
+      
+      spaceBetween: 0,
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        993: {
+          slidesPerView: 3,
+        },
+        1400: {
+          slidesPerView: 7,
+        },
+      },
+    });
+  </script>
+
+  </script>
+  </body>
+</html>
