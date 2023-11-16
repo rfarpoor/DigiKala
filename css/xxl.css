@@ -601,33 +601,91 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
 }
 
 .slider3{
+    height: 465px !important;
     padding: 10px;
     margin-top: 20px;
     width: 100%;
     height: 404px;
-    background-color: #ef394e;
+    border: 0.5px solid rgb(221, 218, 218);
+    border-radius: 16px;
+}
+
+.slider3 .header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.slider3 .header svg{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
 }
 
 .slider3 .swiper {
     width: 100%;
-    height: 100%;
+    height: 365px;
     margin-left: auto;
     margin-right: auto;
  }
 
 .slider3 .swiper-slide {
+    height: 90px !important;
     text-align: center;
     font-size: 18px;
     background: #fff;
-    border-bottom: 1px solid black;
+    border-bottom: 0.5px solid rgb(221, 218, 218);
     height: calc((100%) / 3) !important;
     /* Center slide text vertically */
     display: flex;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.slider3 .swiper-slide .text_area{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.slider3 .swiper-slide .image_product img{
+    width: 86px;
+    height: 86px;
 }
 
+.slider3 .swiper-slide .text_area .number p{
+    color: #19bfd3;
+    font-size: 32px;
+}
+
+.slider3 .swiper-slide .text_area .mtext{
+    font-size: 15px;
+    color: darkolivegreen;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.slider3 .swiper-slide .text_area .mtext p{
+    overflow: hidden;
+    width:100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
 .services2 {
     border-radius: 16px;
     height: 100px;
@@ -727,8 +785,16 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     width: 322px;
     height: 100%;
 }
-
-.services4{
+.services4 .services4_header{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 16px;
+}
+.services4 .services4_body{
     width: 100%;
     height: 436px;
     display: flex;
@@ -762,48 +828,84 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     height: 100%;
     border-radius: 16px;
 }
-
-.services6_heaer{
+.services6{
+    
+    border-radius: 16px;
+    margin-top: 20px;
+    height: fit-content;
+}
+.services6_header{
     width: 100%;
     height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
     margin-top: 16px;
 }
-.services6_heaer h2{
-   font-size: 12px;
+
+.services6_header h3{
+   margin-right: 44px;
 }
 
 
 .services6_body{
-    padding: 10px;
+    height: 360px !important;
+    border: 0.5px solid rgb(221, 218, 218);
+    border-radius: 16px;
     margin-top: 20px;
     width: 100%;
     height: 175px;
-    background-color: #ef394e;
-}
-
-.services6_body .swiper {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
- }
-
-.services6_body .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    border-bottom: 1px solid black;
-    height: 155px !important;
-    width: 188px !important;
-    /* Center slide text vertically */
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
 }
+
+.services6_body .line{
+    width: 100%;
+    height: 0.5px;
+    background-color: silver;
+}
+
+.services6_body .row_top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services6_body .row_top div:last-child{
+
+    border-left: transparent;
+}
+
+.services6_body .row_bottom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.services6_body .row_bottom div:last-child{
+
+    border-left: transparent;
+}
+
+
+.services6_body .service{
+    width: 188px;
+    height: 179px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 0.5px solid silver;
+}
+.services6_body .service img{
+    width: 100px;
+    height: 100px;
+}
+
 .services7{
     width: 100%;
     height: fit-content;
@@ -811,19 +913,19 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     border-radius: 16px;
     margin-top: 20px;
 }
-.services7_heaer{
+.services7 .services7_header{
     width: 100%;
-    height: 44px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 16px;
+    margin-top: 20px;
+    margin: auto;
+    
 }
-.services7_heaer h2{
-   font-size: 12px;
+.services7 .services7_header svg{
+    margin-left: 10px;
 }
-
-
 .services7_body{
     padding: 10px;
     margin-top: 20px;
@@ -1085,8 +1187,6 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
 .mfooter .companies{
     background-color: #f2f2f2;
     width: 100%;
