@@ -6,7 +6,11 @@ header{
     left: 0;
     z-index: 10000000;
 }
-
+.container{
+    width: 95%;
+    margin: 10 auto;
+    padding-top: 20px;
+}
 header .banner{
     width: 100%;
     height: 35px;
@@ -21,7 +25,7 @@ header .banner img {
 header .menu1{
     width: 100%;
     height: 68px;
-    padding: 0 16px;
+    padding: 0 8px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -37,20 +41,23 @@ header .menu1 .search{
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 16px;
 }
 
 header .menu1 .search form{
     width: 100%;
     height: 100%;
+
 }
 header .menu1 .search form label{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    
     position: relative;
+    
+}
+header .menu1 .search form label img{
+    display: none;
 }
 header .menu1 .search form label svg{
     position: absolute;
@@ -65,6 +72,7 @@ header .menu1 .search form label input{
     border: none;
     border-radius: 8px;
     padding-right: 56px;
+    background-color: #F0F0F1;
 }
 
 header .menu1 .search form label input img{
@@ -216,13 +224,14 @@ header .menu2{
 .stories{
     display: none;
 }
-.slider1 {
+.slider1{
     width: 100%;
-    height: 268px;  
+    height: 268px;
 }
 .silder1 .swiper {
     width: 100%;
     height: 100%;
+    margin-top: -50px;
 }
   
 .silder1 .swiper-slide {
@@ -247,9 +256,72 @@ header .menu2{
     object-fit: cover;
   }
 
-  
+.services{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 25%;
+}
+.services .service{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 25%;
+}
+.services .service a{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 234px;
+    height: 100%;
+    text-decoration: none;
+    gap: 8px;
+    color: black;
+    margin-top: 10px;
+}
 
-  .slider2{
+.services .service a .img{
+    width: 52px;
+    height: 52px;
+}
+
+
+.services .service a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services .service a span{
+    font-size:12px;
+}
+.services .service:last-of-type .circle{
+    width: 52px;
+    height: 52px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+} 
+.services .service:last-of-type .circle .miniC{
+    width: 5px;
+    height: 5px;
+    background-color: #a1a3a8;
+    border-radius: 50%;
+}
+
+.slider2{
     width: 100%;
     height: 300px;
     background: linear-gradient(to top ,#ef4056,#ef394e);
@@ -350,30 +422,380 @@ header .menu2{
     height: 100%;
     object-fit: cover;
   }
-  .slider3{
+
+  
+.slider3{
+    height: 465px !important;
     padding: 10px;
     margin-top: 20px;
     width: 100%;
     height: 404px;
-    background-color: #ef394e;
+    border: 0.5px solid rgb(221, 218, 218);
+    border-radius: 16px;
+}
+
+.slider3 .header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.slider3 .header svg{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
 }
 
 .slider3 .swiper {
+    width: 100%;
+    height: 365px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.slider3 .swiper-slide {
+    height: 90px !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-bottom: 0.5px solid rgb(221, 218, 218);
+    height: calc((100%) / 3) !important;
+    /* Center slide text vertically */
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.slider3 .swiper-slide .text_area{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.slider3 .swiper-slide .image_product img{
+    width: 86px;
+    height: 86px;
+}
+
+.slider3 .swiper-slide .text_area .number p{
+    color: #19bfd3;
+    font-size: 32px;
+}
+
+.slider3 .swiper-slide .text_area .mtext{
+    font-size: 15px;
+    color: darkolivegreen;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.slider3 .swiper-slide .text_area .mtext p{
+    overflow: hidden;
+    width:100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.services2 {
+    border-radius: 16px;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    /* background-image: url("../image/freshPattern.svg"); */
+   
+    background: linear-gradient(to right, transparent , #c8cac8);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.services2 .nested__item1{
+    height: 74px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin-right: 50px;
+    transform: translateY(18%);
+}
+
+.services2 .nested__item1 .img__home{
+   
+    width: 62px;
+    height: 62px;
+    
+}
+.services2 .nested__item1 svg{
+   
+    margin-right: 40px;
+
+}
+.services2 .nested__item1 .discount{
+    border-radius: 16px;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.services2 .nested__item1 .discount p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    
+}
+
+.services2 .nested__item2{
+    width: fit-content;
+    height: 74px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transform: translateY(18%);
+    margin-left: 50px;
+}
+
+.services2 .nested__item2 .item{
+    width: 74px;
+    position: relative;
+    margin-right: 10px;
+}
+.services2 .nested__item2 .item img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+   
+
+}
+.services2 .nested__item2 .item p{
+    width: fit-content;
+    background: #ef394e;
+    color: white;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 1px;
+    right: -4px;
+}
+.services3{
+    width: 100%;
+    height: fit-content ;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 9px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.services3 .service img{
+    border-radius: 20px;
+    width: 463px;
+    height: 100%;
+}
+.services4 .services4_header{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 16px;
+}
+.services4 .services4_body{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+.services4 .service img{
+
+    width: 100px;
+    height: 100px;
+}
+.services4 .service p{
+    font-size: 15px;
+}
+
+.services5{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.services5 .service img{
+    width: 470px;
+    height: 100%;
+    border-radius: 16px;
+}
+.services6{
+    
+    border-radius: 16px;
+    margin-top: 20px;
+    height: fit-content;
+}
+.services6_header{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.services6_header h3{
+   margin-right: 44px;
+}
+
+
+.services6_body{
+    height: fit-content !important;
+    border: 0.5px solid rgb(221, 218, 218);
+    border-radius: 16px;
+    margin-top: 20px;
+    width: 100%;
+    height: 175px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services6_body .line{
+    width: 100%;
+    height: 0.5px;
+    background-color: silver;
+}
+
+.services6_body .row_top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services6_body .row_top div:last-child{
+
+    border-left: transparent;
+}
+
+.services6_body .row_bottom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.services6_body .row_bottom div:last-child{
+
+    border-left: transparent;
+}
+.services6_body .service{
+    width: 135px;
+    height: 133px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 0.5px solid silver;
+}
+.services6_body .service img{
+    width: 60px;
+    height: 60px;
+}
+.services6_body .service p{
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    width:100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.services7{
+    width: 100%;
+    height: fit-content;
+    border: 0.5px solid silver;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+.services7 .services7_header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+    
+}
+.services7 .services7_header svg{
+    margin-left: 10px;
+}
+.services7_body{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.services7_body .swiper {
     width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
  }
 
-.slider3 .swiper-slide {
+.services7_body .swiper-slide {
+    width: 142px !important;
+    height: 118px !important;
     text-align: center;
     font-size: 18px;
     background: #fff;
-    border-bottom: 1px solid black;
-    height: calc((100%) / 3) !important;
+ 
     /* Center slide text vertically */
+    border-left: 0.5px solid silver;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-  }
+}
+.services7_body .swiper-slide img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.mfooter{
+    margin-top: 20px;
+    border-top: 0.5px solid silver;
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
