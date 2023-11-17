@@ -422,6 +422,128 @@ header .menu2{
   }
 
   
+
+.services2 {
+    border-radius: 16px;
+    height: 190px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    background-image:linear-gradient(to right, #d8d8da, #c0c2c5);
+}
+.services2 .cover {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/freshPattern.svg");
+    border-radius: 32px;
+}
+.services2 .cover {
+    flex-flow: column;
+    align-items: end;
+    justify-content: center;
+}
+.services2 .nested__item1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    
+    transform: translateY(25%);
+}
+.services2 .nested__item1 .img__home{
+    width: 62px;
+    height: 62px;
+}
+.services2 .nested__item1 svg{
+    width: 200px;
+    
+}
+.services2 .nested__item1 .discount{
+    border-radius: 16px;
+    padding: 8px;
+    
+}
+
+.services2 .nested__item1 .discount p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    background-color: #39ae00;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.services2 .nested__item2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 20px;
+    transform: translateY(25%);
+    margin-left: 50px;
+}
+
+.services2 .nested__item2 .item{
+    width: 74px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.services2 .nested__item2 div:nth-last-of-type(3){
+    display: none;
+}
+.services2 .nested__item2 div:nth-last-of-type(2){
+    display: none;
+}
+
+.services2 .nested__item2 .item img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+.services2 .nested__item2 .item p{
+    width: fit-content;
+    background: #ef394e;
+    color: white;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 1px;
+    right: -4px;
+}
+.services2 .nested__item2 .item_last{
+    height: 50px;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #4ab517;
+    margin-right: 10px;
+}
+.services2 .nested__item2 .item_last p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.services2 .nested__item2 .item_last svg{
+    margin-right: 5px;
+}  
+  
 .slider3{
     height: 465px !important;
     padding: 10px;
@@ -508,90 +630,7 @@ header .menu2{
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
-.services2 {
-    border-radius: 16px;
-    height: 100px;
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    /* background-image: url("../image/freshPattern.svg"); */
-    background: linear-gradient(to right, transparent , #c8cac8);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.services2 .nested__item1{
-    height: 74px;
-    display: flex;
-    position: absolute;
-    right: 0;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0;
-    margin-right: 50px;
-    transform: translateY(18%);
-}
 
-.services2 .nested__item1 .img__home{
-   
-    width: 62px;
-    height: 62px;
-    
-}
-.services2 .nested__item1 svg{
-   
-    margin-right: 40px;
-
-}
-.services2 .nested__item1 .discount{
-    border-radius: 16px;
-    padding: 8px;
-    margin-right: 20px;
-}
-
-.services2 .nested__item1 .discount p{
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: white;
-    
-}
-
-.services2 .nested__item2{
-    width: fit-content;
-    height: 74px;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    transform: translateY(18%);
-    margin-left: 50px;
-}
-
-.services2 .nested__item2 .item{
-    width: 74px;
-    position: relative;
-    margin-right: 10px;
-}
-.services2 .nested__item2 .item img{
-    width: 74px;
-    height: 74px;
-    border-radius: 50%;
-   
-
-}
-.services2 .nested__item2 .item p{
-    width: fit-content;
-    background: #ef394e;
-    color: white;
-    font-size: 12px;
-    padding: 2px 8px;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 1px;
-    right: -4px;
-}
 .services3{
     width: 100%;
     height: fit-content ;
@@ -632,8 +671,11 @@ header .menu2{
     height: 100px;
 }
 .services4 .service p{
+    width: fit-content;
     font-size: 15px;
+    margin: auto;
 }
+
 
 .services5{
     width: 100%;
@@ -785,7 +827,7 @@ header .menu2{
 }
 .services7_body .swiper-slide img {
     width: 100px;
-    height: 100px;
+    height: fit-content;
 }
 
 

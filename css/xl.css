@@ -44,7 +44,7 @@ header .menu1 .search{
     display: flex;
     align-items: center;
     padding: 0 16px;
-    background-color: blue;
+    
 
 }
 
@@ -700,18 +700,21 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
+
+
 .services2 {
     border-radius: 16px;
-    height: 100px;
+    height: 110px;
     width: 100%;
     margin-top: 20px;
     position: relative;
-    /* background-image: url("../image/freshPattern.svg"); */
-   
-    background: linear-gradient(to right, transparent , #c8cac8);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image:linear-gradient(to right, #d8d8da, #c0c2c5);
+}
+.services2 .cover {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/freshPattern.svg");
+    border-radius: 32px;
 }
 .services2 .nested__item1{
     height: 74px;
@@ -720,21 +723,17 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     right: 0;
     justify-content: center;
     align-items: center;
-    margin-right: 0;
-    margin-right: 50px;
-    transform: translateY(18%);
+    margin-right: 40px;
+    transform: translateY(25%);
 }
 
 .services2 .nested__item1 .img__home{
-   
     width: 62px;
     height: 62px;
-    
 }
 .services2 .nested__item1 svg{
-   
+    width: 227px;
     margin-right: 40px;
-
 }
 .services2 .nested__item1 .discount{
     border-radius: 16px;
@@ -746,7 +745,15 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     font-size: 1.2rem;
     font-weight: 300;
     color: white;
-    
+    background-color: #39ae00;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .services2 .nested__item2{
@@ -757,7 +764,7 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     align-items: center;
     position: absolute;
     left: 0;
-    transform: translateY(18%);
+    transform: translateY(25%);
     margin-left: 50px;
 }
 
@@ -770,8 +777,6 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     width: 74px;
     height: 74px;
     border-radius: 50%;
-   
-
 }
 .services2 .nested__item2 .item p{
     width: fit-content;
@@ -784,6 +789,29 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     bottom: 1px;
     right: -4px;
 }
+.services2 .nested__item2 .item_last{
+    height: 50px;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #4ab517;
+    margin-right: 10px;
+}
+.services2 .nested__item2 .item_last p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.services2 .nested__item2 .item_last svg{
+
+    margin-right: 10px;
+}  
+
 .services3{
     width: 100%;
     height: fit-content ;
@@ -796,7 +824,7 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
 }
 .services3 .service img{
     border-radius: 20px;
-    width: 288px;
+    width: 322px;
     height: 100%;
 }
 .services4 .services4_header{
@@ -824,7 +852,9 @@ header .menu2 .menuSelf .menu__list .menu__item:first-child .menu3 .menu3__nav .
     height: 100px;
 }
 .services4 .service p{
+    width: fit-content;
     font-size: 15px;
+    margin: auto;
 }
 
 .services5{
