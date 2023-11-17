@@ -1,3 +1,2 @@
 # DigiKala
-Demo
-https://sparkling-longma-77624f.netlify.app/
+![Uploading screen1.PNG…]()
